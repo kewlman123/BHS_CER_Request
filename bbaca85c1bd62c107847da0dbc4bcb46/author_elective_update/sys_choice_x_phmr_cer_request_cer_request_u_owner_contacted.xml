@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_owner_contacted" table="x_phmr_cer_request_cer_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_owner_contacted</element>
+            <name>x_phmr_cer_request_cer_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-08 22:38:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>bcfa3c5c1b1a2c107847da0dbc4bcbd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_owner_contacted</sys_name>
+            <sys_package display_value="CER Request" source="x_phmr_cer_request">bbaca85c1bd62c107847da0dbc4bcb46</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CER Request">bbaca85c1bd62c107847da0dbc4bcb46</sys_scope>
+            <sys_update_name>sys_choice_x_phmr_cer_request_cer_request_u_owner_contacted</sys_update_name>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-08 22:38:04</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owner_contacted</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_phmr_cer_request_cer_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-08 22:38:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>74fa3c5c1b1a2c107847da0dbc4bcbd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-08 22:38:04</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owner_contacted</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_phmr_cer_request_cer_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-08 22:38:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b4fa3c5c1b1a2c107847da0dbc4bcbd9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-08 22:38:04</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

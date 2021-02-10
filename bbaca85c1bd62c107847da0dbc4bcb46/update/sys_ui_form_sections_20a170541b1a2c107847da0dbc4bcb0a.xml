@@ -16,15 +16,28 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-08 22:22:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a5673c581b1a2c107847da0dbc4bcbbc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_phmr_cer_request_cer_request" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">20a170541b1a2c107847da0dbc4bcb0a</sys_ui_form>
+            <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-08 22:22:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>V1R4211</sys_created_by>
             <sys_created_on>2021-02-08 21:57:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>6ca170541b1a2c107847da0dbc4bcb0d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_phmr_cer_request_cer_request" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">20a170541b1a2c107847da0dbc4bcb0a</sys_ui_form>
             <sys_ui_section caption="Activity Log" display_value="Activity Log" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">eca170541b1a2c107847da0dbc4bcb08</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-08 21:57:22</sys_updated_on>
+            <sys_updated_on>2021-02-08 22:22:33</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_phmr_cer_request_cer_request</name>

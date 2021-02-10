@@ -1,3 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="CER Request" max_length="40" name="x_phmr_cer_request_cer_request" type="collection"/>
+    <element extends="task" label="CER Request" max_length="40" name="x_phmr_cer_request_cer_request" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="By Whom When" max_length="40" name="u_by_whom_when" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Have Lease Info" max_length="40" name="u_have_lease_info" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Landlord Been Contacted" max_length="40" name="u_landlord_contacted" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element label="Months of Lease" max_length="40" name="u_months_lease" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Owner of Building" max_length="40" name="u_ownerof_building" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has Owner/ Manager been Contacted" max_length="40" name="u_owner_contacted" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Property Address" max_length="500" name="u_property_address" type="string"/>
+    </element>
 </database>
