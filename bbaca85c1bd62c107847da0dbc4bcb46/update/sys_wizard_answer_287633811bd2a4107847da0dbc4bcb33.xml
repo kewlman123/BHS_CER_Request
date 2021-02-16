@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>CER Request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>CER Request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Create a new task" name="Create a new task">48ecf8bf0a0110e9006e17d69550477e</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>V1R4211</sys_created_by>
+        <sys_created_on>2021-02-11 20:12:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>287633811bd2a4107847da0dbc4bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CER Request</sys_name>
+        <sys_package display_value="CER Request" source="x_phmr_cer_request">bbaca85c1bd62c107847da0dbc4bcb46</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CER Request">bbaca85c1bd62c107847da0dbc4bcb46</sys_scope>
+        <sys_update_name>sys_wizard_answer_287633811bd2a4107847da0dbc4bcb33</sys_update_name>
+        <sys_updated_by>V1R4211</sys_updated_by>
+        <sys_updated_on>2021-02-11 20:12:42</sys_updated_on>
+        <table/>
+        <target_url>x_phmr_cer_request_cer_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

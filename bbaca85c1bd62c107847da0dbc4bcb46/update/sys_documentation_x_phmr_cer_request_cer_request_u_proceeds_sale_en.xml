@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_proceeds_sale" label="Proceeds of Sale" language="en" table="x_phmr_cer_request_cer_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_proceeds_sale</element>
+            <help/>
+            <hint/>
+            <label>Proceeds of Sale</label>
+            <language>en</language>
+            <name>x_phmr_cer_request_cer_request</name>
+            <plural>Proceeds of Sales</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-16 19:41:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>103f1dbe1b5a2810b48cbbf4cc4bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Proceeds of Sale</sys_name>
+            <sys_package display_value="CER Request" source="x_phmr_cer_request">bbaca85c1bd62c107847da0dbc4bcb46</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CER Request">bbaca85c1bd62c107847da0dbc4bcb46</sys_scope>
+            <sys_update_name>sys_documentation_x_phmr_cer_request_cer_request_u_proceeds_sale_en</sys_update_name>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-16 19:41:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
