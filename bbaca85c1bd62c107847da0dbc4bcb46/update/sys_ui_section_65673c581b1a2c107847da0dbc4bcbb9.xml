@@ -4,13 +4,13 @@
             <element>u_property_address</element>
             <position>0</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-08 22:38:04</sys_created_on>
-            <sys_id>f8fa3c5c1b1a2c107847da0dbc4bcbe2</sys_id>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>5c2e1d0d1be620107847da0dbc4bcbad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-08 22:38:04</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,111 +18,195 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-08 22:38:04</sys_created_on>
-            <sys_id>7cfa3c5c1b1a2c107847da0dbc4bcbe2</sys_id>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>dc2e1d0d1be620107847da0dbc4bcbad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-08 22:38:04</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_ownerof_building</element>
+            <element>u_entity_leasing_bldg</element>
             <position>2</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-08 22:38:04</sys_created_on>
-            <sys_id>fcfa3c5c1b1a2c107847da0dbc4bcbe2</sys_id>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>502e1d0d1be620107847da0dbc4bcbae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-08 22:38:04</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ownerof_building</element>
+            <position>3</position>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>d02e1d0d1be620107847da0dbc4bcbae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_have_lease_info</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-08 22:38:04</sys_created_on>
-            <sys_id>70fa3c5c1b1a2c107847da0dbc4bcbe3</sys_id>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>542e1d0d1be620107847da0dbc4bcbae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-08 22:38:04</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_months_lease</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-08 22:38:04</sys_created_on>
-            <sys_id>f0fa3c5c1b1a2c107847da0dbc4bcbe3</sys_id>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>d42e1d0d1be620107847da0dbc4bcbae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-08 22:38:04</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_property_part_mgt_agree</element>
+            <position>6</position>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>582e1d0d1be620107847da0dbc4bcbae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cost_report_assoc_location</element>
+            <position>7</position>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>d82e1d0d1be620107847da0dbc4bcbae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>8</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-08 22:38:04</sys_created_on>
-            <sys_id>74fa3c5c1b1a2c107847da0dbc4bcbe3</sys_id>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>5c2e1d0d1be620107847da0dbc4bcbae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-08 22:38:04</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_owner_contacted</element>
-            <position>6</position>
+            <position>9</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-08 22:38:04</sys_created_on>
-            <sys_id>f4fa3c5c1b1a2c107847da0dbc4bcbe3</sys_id>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>dc2e1d0d1be620107847da0dbc4bcbae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-08 22:38:04</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_landlord_contacted</element>
-            <position>7</position>
+            <position>10</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-08 22:38:04</sys_created_on>
-            <sys_id>78fa3c5c1b1a2c107847da0dbc4bcbe3</sys_id>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>502e1d0d1be620107847da0dbc4bcbaf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-08 22:38:04</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_by_whom_when</element>
-            <position>8</position>
+            <position>11</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-08 22:38:04</sys_created_on>
-            <sys_id>f8fa3c5c1b1a2c107847da0dbc4bcbe3</sys_id>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>d02e1d0d1be620107847da0dbc4bcbaf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-08 22:38:04</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_landlord_pay</element>
+            <position>12</position>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>542e1d0d1be620107847da0dbc4bcbaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_by_howmuch</element>
+            <position>13</position>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>d42e1d0d1be620107847da0dbc4bcbaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cost_proj_reimbursible</element>
+            <position>14</position>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 19:22:55</sys_created_on>
+            <sys_id>582e1d0d1be620107847da0dbc4bcbaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renovation" display_value="Renovation" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">65673c581b1a2c107847da0dbc4bcbb9</sys_ui_section>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 19:22:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -4,13 +4,13 @@
             <element>u_asset_desc</element>
             <position>0</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-16 19:41:17</sys_created_on>
-            <sys_id>0d3f5dbe1b5a2810b48cbbf4cc4bcb9b</sys_id>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>2d6b99891be620107847da0dbc4bcbbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-16 19:41:17</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,167 +18,251 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-16 19:41:17</sys_created_on>
-            <sys_id>053f5dbe1b5a2810b48cbbf4cc4bcb9c</sys_id>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>ad6b99891be620107847da0dbc4bcbbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-16 19:41:17</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_manufacturer</element>
+            <element>u_name_of_bhs_operation</element>
             <position>2</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-16 19:41:17</sys_created_on>
-            <sys_id>853f5dbe1b5a2810b48cbbf4cc4bcb9c</sys_id>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>216b99891be620107847da0dbc4bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-16 19:41:17</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_manufacturer</element>
+            <position>3</position>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>a16b99891be620107847da0dbc4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_model</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-16 19:41:17</sys_created_on>
-            <sys_id>093f5dbe1b5a2810b48cbbf4cc4bcb9c</sys_id>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>256b99891be620107847da0dbc4bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-16 19:41:17</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_serial_number</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-16 19:41:17</sys_created_on>
-            <sys_id>893f5dbe1b5a2810b48cbbf4cc4bcb9c</sys_id>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>a56b99891be620107847da0dbc4bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-16 19:41:17</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_asset_number</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-16 19:41:17</sys_created_on>
-            <sys_id>0d3f5dbe1b5a2810b48cbbf4cc4bcb9c</sys_id>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>296b99891be620107847da0dbc4bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-16 19:41:17</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_number_units_retired</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-16 19:41:17</sys_created_on>
-            <sys_id>8d3f5dbe1b5a2810b48cbbf4cc4bcb9c</sys_id>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>a96b99891be620107847da0dbc4bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-16 19:41:17</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_support_cost_retired</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-16 19:41:17</sys_created_on>
-            <sys_id>013f5dbe1b5a2810b48cbbf4cc4bcb9d</sys_id>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>2d6b99891be620107847da0dbc4bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-16 19:41:17</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-16 19:41:17</sys_created_on>
-            <sys_id>813f5dbe1b5a2810b48cbbf4cc4bcb9d</sys_id>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>ad6b99891be620107847da0dbc4bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-16 19:41:17</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_removal_cost</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-16 19:41:17</sys_created_on>
-            <sys_id>053f5dbe1b5a2810b48cbbf4cc4bcb9d</sys_id>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>216b99891be620107847da0dbc4bcbbf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-16 19:41:17</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_proceeds_sale</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-16 19:41:17</sys_created_on>
-            <sys_id>853f5dbe1b5a2810b48cbbf4cc4bcb9d</sys_id>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>a16b99891be620107847da0dbc4bcbbf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-16 19:41:17</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_location_activated</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-16 19:41:17</sys_created_on>
-            <sys_id>093f5dbe1b5a2810b48cbbf4cc4bcb9d</sys_id>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>256b99891be620107847da0dbc4bcbbf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-16 19:41:17</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_support_nbv_retired</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>V1R4211</sys_created_by>
-            <sys_created_on>2021-02-16 19:41:17</sys_created_on>
-            <sys_id>893f5dbe1b5a2810b48cbbf4cc4bcb9d</sys_id>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>a56b99891be620107847da0dbc4bcbbf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
             <sys_updated_by>V1R4211</sys_updated_by>
-            <sys_updated_on>2021-02-16 19:41:17</sys_updated_on>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reason_for_disposal</element>
+            <position>14</position>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>296b99891be620107847da0dbc4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_method_of_disposal</element>
+            <position>15</position>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>a96b99891be620107847da0dbc4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_transfer_date</element>
+            <position>16</position>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>2d6b99891be620107847da0dbc4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_transfer_to</element>
+            <position>17</position>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>ad6b99891be620107847da0dbc4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_transfer_from</element>
+            <position>18</position>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 19:11:00</sys_created_on>
+            <sys_id>216b99891be620107847da0dbc4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disposal" display_value="Disposal" name="x_phmr_cer_request_cer_request" sys_domain="global" view="Default view">503f1dbe1b5a2810b48cbbf4cc4bcb1a</sys_ui_section>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 19:11:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

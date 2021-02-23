@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="CER Request" max_length="40" name="x_phmr_cer_request_cer_request" sizeclass="0" type="collection">
+    <element audit="true" extends="task" label="CER Request" max_length="40" name="x_phmr_cer_request_cer_request" type="collection">
         <element attributes="omit_sys_original=true" default="0" label="Additional Operating Expense" max_length="20" name="u_additional_oper_expense" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this an Asset Addition?" max_length="40" name="u_asset_addition" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Asset Description" max_length="100" name="u_asset_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this an Asset Disposal?" max_length="40" name="u_asset_disposal" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Asset Number" max_length="40" name="u_asset_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Asset Tag Number" max_length="40" name="u_asset_tag_numb" type="string"/>
         <element attributes="omit_sys_original=true" default="0" label="Bid Cost 1" max_length="20" name="u_bid_cost1" type="currency"/>
         <element attributes="omit_sys_original=true" default="0" label="Bid Cost 2" max_length="20" name="u_bid_cost2" type="currency"/>
         <element attributes="omit_sys_original=true" default="0" label="Bid Cost 3" max_length="20" name="u_bid_cost3" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Bid Vendor 1" max_length="40" name="u_bid_vendor1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Bid Vendor 2" max_length="40" name="u_bid_vendor2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Bid Vendor 3" max_length="40" name="u_bid_vendor3" type="string"/>
+        <element attributes="omit_sys_original=true" label="By How Much" max_length="20" name="u_by_howmuch" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="By Whom When" max_length="40" name="u_by_whom_when" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Costs of Project Reimbursible" max_length="40" name="u_cost_proj_reimbursible" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cost Report Associated with Location" max_length="40" name="u_cost_report_assoc_location" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
         <element attributes="omit_sys_original=true" label="Current EBITDA (Annual)" max_length="20" name="u_current_ebitda" type="currency"/>
         <element attributes="omit_sys_original=true" label="Current Revenue" max_length="20" name="u_current_revenue" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Department" max_length="40" name="u_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Entity Leasing Building" max_length="40" name="u_entity_leasing_bldg" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Estimated Completion Date" max_length="40" name="u_estimated_completion_date" type="glide_date"/>
         <element attributes="omit_sys_original=true" label="IT - Estimated Monthly Amort. Cloud Expense" max_length="20" name="u_estimated_month_amort_cloud" type="currency"/>
         <element attributes="omit_sys_original=true" label="Estimated Monthly Depr. Expense" max_length="20" name="u_estimated_month_depr_expense" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Executive Summary" max_length="500" name="u_executive_summary" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Expense Account" max_length="40" name="u_expense_account" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Funds Available?" max_length="40" name="u_funds_available" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Have Lease Info" max_length="40" name="u_have_lease_info" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Initial Lease End Date" max_length="40" name="u_initial_lease_enddate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this a Renovation?" max_length="40" name="u_is_this_renovation" type="string">
             <choice>
                 <element inactive_on_update="false" label="No" sequence="0" value="no"/>
                 <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
@@ -24,10 +67,22 @@
         <element attributes="omit_sys_original=true" label="IT - Annual Operating Expense" max_length="20" name="u_it_annual_operating_exp" type="currency"/>
         <element attributes="omit_sys_original=true" label="IT - Estimated Monthly Depr. Capex Expense" max_length="20" name="u_it_estimated_month_depr_capex" type="currency"/>
         <element label="IT - Estimated Useful Life" max_length="40" name="u_it_estimate_useful_life" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IT Request?" max_length="40" name="u_it_request" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Landlord Been Contacted" max_length="40" name="u_landlord_contacted" type="string">
             <choice>
                 <element inactive_on_update="false" label="No" sequence="0" value="no"/>
                 <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Will Landlord Pay for All/Part?" max_length="40" name="u_landlord_pay" type="string">
+            <choice>
+                <element inactive_on_update="false" label="All" sequence="0" value="all"/>
+                <element inactive_on_update="false" label="Part" sequence="1" value="part"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Lease Renewal Option" max_length="40" name="u_lease_renewal_option" type="string">
@@ -43,8 +98,23 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Manufacturer" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Method of Disposal" max_length="40" name="u_method_of_disposal" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Donation" sequence="0" value="donation"/>
+                <element inactive_on_update="false" label="Other" sequence="1" value="other"/>
+                <element inactive_on_update="false" label="Sale" sequence="2" value="sale"/>
+                <element inactive_on_update="false" label="Trade-in" sequence="3" value="trade-in"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_model" type="string"/>
         <element label="Months of Lease" max_length="40" name="u_months_lease" type="integer"/>
+        <element attributes="encode_utf8=false" label="Name of BrightSpring Operation" max_length="32" name="u_name_of_bhs_operation" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="National Vendor Used?" max_length="40" name="u_national_vendor_used" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
         <element label="Support - Number Units Retired" max_length="40" name="u_number_units_retired" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Options" max_length="400" name="u_options" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Owner of Building" max_length="40" name="u_ownerof_building" type="string"/>
@@ -58,11 +128,75 @@
         <element attributes="omit_sys_original=true" default="0" label="Proceeds of Sale" max_length="20" name="u_proceeds_sale" type="currency"/>
         <element attributes="omit_sys_original=true" label="Projected EBITDA (Annual)" max_length="20" name="u_projected_ebitda" type="currency"/>
         <element attributes="omit_sys_original=true" label="Projected Revenue" max_length="20" name="u_projected_revenue" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Project Classification" max_length="40" name="u_project_classification" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Business Need" sequence="0" value="business need"/>
+                <element inactive_on_update="false" label="Compliance" sequence="1" value="compliance"/>
+                <element inactive_on_update="false" label="Upgrade" sequence="2" value="upgrade"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Property Address" max_length="500" name="u_property_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Property Part of Mgt. Agreement" max_length="40" name="u_property_part_mgt_agree" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Provide Terms" max_length="400" name="u_provide_terms" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reason for Disposal" max_length="40" name="u_reason_for_disposal" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Broken" sequence="0" value="broken"/>
+                <element inactive_on_update="false" label="Casualty Loss" sequence="1" value="casualty loss"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Soiled" sequence="3" value="soiled"/>
+            </choice>
+        </element>
         <element attributes="omit_sys_original=true" default="0" label="Removal Cost" max_length="20" name="u_removal_cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Replacing Asset?" max_length="40" name="u_replacing_asset" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Serial Number" max_length="40" name="u_serial_number" type="string"/>
+        <element attributes="encode_utf8=false" label="Submitter Name" max_length="32" name="u_submitter_name" reference="sys_user" type="reference"/>
         <element attributes="omit_sys_original=true" default="0" label="Support - Cost Retired" max_length="20" name="u_support_cost_retired" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Support - NBV Retired" max_length="40" name="u_support_nbv_retired" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="3 Bids Obtained?" max_length="40" name="u_three_bids_obtained" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Transfer Date" max_length="40" name="u_transfer_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Transfer From" max_length="32" name="u_transfer_from" reference="cmn_location" type="reference"/>
+        <element attributes="encode_utf8=false" label="Transfer To" max_length="32" name="u_transfer_to" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Contract" max_length="40" name="u_type_of_contract" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Want a Check Right Now?" max_length="40" name="u_want_check_now" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Workforce?" max_length="40" name="u_workforce" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_transfer_from"/>
+        </index>
+        <index name="index2">
+            <element name="u_transfer_to"/>
+        </index>
+        <index name="index3">
+            <element name="u_name_of_bhs_operation"/>
+        </index>
+        <index name="index4">
+            <element name="u_submitter_name"/>
+        </index>
     </element>
 </database>

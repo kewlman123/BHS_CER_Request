@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_method_of_disposal" table="x_phmr_cer_request_cer_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_method_of_disposal</element>
+            <name>x_phmr_cer_request_cer_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 18:55:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>42d711091be620107847da0dbc4bcb54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_method_of_disposal</sys_name>
+            <sys_package display_value="CER Request" source="x_phmr_cer_request">bbaca85c1bd62c107847da0dbc4bcb46</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CER Request">bbaca85c1bd62c107847da0dbc4bcb46</sys_scope>
+            <sys_update_name>sys_choice_x_phmr_cer_request_cer_request_u_method_of_disposal</sys_update_name>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 18:55:27</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_method_of_disposal</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Donation</label>
+            <language>en</language>
+            <name>x_phmr_cer_request_cer_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 18:55:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0ad711091be620107847da0dbc4bcb53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 18:55:27</sys_updated_on>
+            <value>donation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_method_of_disposal</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_phmr_cer_request_cer_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 18:55:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4ad711091be620107847da0dbc4bcb56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 18:55:27</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_method_of_disposal</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sale</label>
+            <language>en</language>
+            <name>x_phmr_cer_request_cer_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 18:55:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>82d711091be620107847da0dbc4bcb59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 18:55:27</sys_updated_on>
+            <value>sale</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_method_of_disposal</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trade-in</label>
+            <language>en</language>
+            <name>x_phmr_cer_request_cer_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>V1R4211</sys_created_by>
+            <sys_created_on>2021-02-23 18:55:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cad711091be620107847da0dbc4bcb5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V1R4211</sys_updated_by>
+            <sys_updated_on>2021-02-23 18:55:27</sys_updated_on>
+            <value>trade-in</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
